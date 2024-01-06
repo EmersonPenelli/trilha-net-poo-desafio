@@ -11,6 +11,6 @@ public class Nokia : Smartphone
     // TODO: Sobrescrever o método "InstalarAplicativo"
     public override void InstalarAplicativo(string nomeApp)
     {
-        Console.WriteLine("Instalando aplicativo {0} no seu Nokia...", nomeApp); ;
+        Console.WriteLine($"Instalando aplicativo {nomeApp} da loja no seu Nokia..."); 
     }
 }
